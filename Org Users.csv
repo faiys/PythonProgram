@@ -1,4 +1,7 @@
-First Name,Last Name,Primary Email Address,Secondary Email Address 1,Display name,Local User Name,Date of Joining,Employee Id,Gender,Timezone,Language,Seating Location,Designation,User Status,Work Location,Reporting To,Department,Country,Date of Birth,Last Login Time,Created Time,Address-State,Address-Country,Address-Street,Address-Zip/Postal Code,Address-City,Address-Mobile
-John,,myzentegra@gmail.com,user21@demo1.zentegra.net,user21,,01/01/1970,,N,GMT,English,,,Active,,,,United States,01/01/1970,17-Jul-2025 07:31:59 GMT,21-Jan-2025 00:49:06 GMT,,,,,,
-abdulbasith781,,abdulbasith781@gmail.com,,,,,,,Asia/Kolkata,English,,,Inactive,,,,India,,,30-Mar-2025 04:41:52 GMT,,,,,,
-aakash,singh,abdulbasith11131993@gmail.com,,aakash,,01/01/1970,,N,Asia/Colombo,en-us,,,Active,,,,United States,01/01/1970,03-Jul-2025 08:04:51 GMT,10-Jun-2025 07:56:24 GMT,,,,,,
+First Name,Last Name,Primary Email Address,Secondary Email Address 1,Date of Joining,User Status
+John,,myzentegra@gmail.com,user21@demo1.zentegra.net,01/01/1970,Active
+abdulbasith781,,abdulbasith781@gmail.com,,,Inactive
+aakash,singh,abdulbasith11131993@gmail.com,,01/01/1970,Active
+Ab,al,ab@gmail.com,user21@demo1.zentegra.net,01/01/1970,Active
+Cd,,cv@gmail.com,,,Inactive
+Fa,as,fa@gmail.com,,01/01/1970,Active
