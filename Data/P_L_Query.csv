@@ -1,0 +1,146 @@
+﻿Date,Year,Month,Month No,Category,Account Type,Account Name,Transaction Details,Transaction Type,Transactions#,Reference#,Status,Debit or Credit,Credit Amount,Debit Amount,Credit - Debit,Debit - Credit,Amount,Record ID
+27 Mar 2006,2006,March,3,Direct Cost,Asset,Accounts Receivable,Aakash Zentegra,INVOICE,INV-000029,,Overdue,debit,0,"USD 1,790.00",-1790,1790,-1790,5893767000003251118
+27 Mar 2006,2006,March,3,Revenue,Income,Sales,Aakash Zentegra,INVOICE,INV-000029,,Overdue,credit,1790,USD 0.00,1790,-1790,1790,5893767000003251118
+27 Mar 2006,2006,March,3,Direct Cost,Asset,Inventory Asset,Aakash Zentegra,INVENTORY_VALUATION_FOR_INVOICE,INV-000029,,Overdue,credit,1500,USD 0.00,1500,-1500,1500,5893767000003251118
+27 Mar 2006,2006,March,3,SGA,Expense,Cost of Goods Sold,Aakash Zentegra,INVENTORY_VALUATION_FOR_INVOICE,INV-000029,,Overdue,debit,0,"USD 1,500.00",-1500,1500,-1500,5893767000003251118
+12 Apr 2006,2006,April,4,Finance Costs,Liability,Accounts Payable,Mr. Basha M,BILL,33320-1,,Overdue,credit,1500,USD 0.00,1500,-1500,1500,5893767000003251175
+12 Apr 2006,2006,April,4,Direct Cost,Asset,Inventory Asset,Mr. Basha M,BILL,33320-1,,Overdue,debit,0,"USD 1,500.00",-1500,1500,-1500,5893767000003251175
+17 Jun 2019,2019,June,6,Direct Cost,Asset,Accounts Receivable,Test,INVOICE,INV-000034,,Overdue,debit,0,"USD 32,475.00",-32475,32475,-32475,5893767000003949095
+17 Jun 2019,2019,June,6,Finance Costs,Liability,Tax Payable,Test,INVOICE,INV-000034,,Overdue,credit,2475,USD 0.00,2475,-2475,2475,5893767000003949095
+17 Jun 2019,2019,June,6,Revenue,Income,Sales,Test,INVOICE,INV-000034,,Overdue,credit,30000,USD 0.00,30000,-30000,30000,5893767000003949095
+20 Nov 2019,2019,November,11,Finance Costs,Liability,Employee Reimbursements,,EXPENSE,,ER-00002,Non-Billable,credit,31.39,USD 0.00,31.39,-31.39,31.39,5893767000001207398
+20 Nov 2019,2019,November,11,SGA,Expense,Uncategorized,,EXPENSE,,ER-00002,Non-Billable,debit,0,USD 31.39,-31.39,31.39,-31.39,5893767000001207398
+17 Jun 2022,2022,June,6,Revenue,Income,Sales,Test,INVOICE,INV-000035,,Overdue,credit,10000,USD 0.00,10000,-10000,10000,5893767000003949125
+17 Jun 2022,2022,June,6,Finance Costs,Liability,Tax Payable,Test,INVOICE,INV-000035,,Overdue,credit,825,USD 0.00,825,-825,825,5893767000003949125
+17 Jun 2022,2022,June,6,Direct Cost,Asset,Accounts Receivable,Test,INVOICE,INV-000035,,Overdue,debit,0,"USD 10,825.00",-10825,10825,-10825,5893767000003949125
+27 Jun 2023,2023,June,6,Finance Costs,Liability,Accounts Payable,Mr. Basha M,BILL,Bill test7,,Overdue,credit,20000,USD 0.00,20000,-20000,20000,5893767000003949077
+27 Jun 2023,2023,June,6,Revenue,Income,General Income,Mr. Basha M,BILL,Bill test7,,Overdue,debit,0,"USD 20,000.00",-20000,20000,-20000,5893767000003949077
+09 Jan 2024,2024,January,1,Finance Costs,Liability,Accounts Payable,Mr. Basha M,BILL,Test56,,Overdue,credit,10000,USD 0.00,10000,-10000,10000,5893767000003949059
+09 Jan 2024,2024,January,1,SGA,Expense,Other Expenses,Mr. Basha M,BILL,Test56,,Overdue,debit,0,"USD 10,000.00",-10000,10000,-10000,5893767000003949059
+01 Jan 2025,2025,January,1,Revenue,Income,Sales,Aakash Zentegra,INVOICE,INV-000006,,Overdue,credit,1234,USD 0.00,1234,-1234,1234,5893767000000097013
+01 Jan 2025,2025,January,1,Direct Cost,Asset,Accounts Receivable,Aakash Zentegra,INVOICE,INV-000006,,Overdue,debit,0,"USD 1,234.00",-1234,1234,-1234,5893767000000097013
+01 Jan 2025,2025,January,1,Revenue,Income,Sales,vijey v,INVOICE,INV-000007,,Overdue,credit,299,USD 0.00,299,-299,299,5893767000000094130
+01 Jan 2025,2025,January,1,Direct Cost,Asset,Accounts Receivable,vijey v,INVOICE,INV-000007,,Overdue,debit,0,USD 299.00,-299,299,-299,5893767000000094130
+02 Jan 2025,2025,January,1,Direct Cost,Asset,Accounts Receivable,Akash Test,INVOICE,INV-000041,,Overdue,debit,0,"USD 1,190.75",-1190.75,1190.75,-1190.75,5893767000004771053
+02 Jan 2025,2025,January,1,Finance Costs,Liability,Tax Payable,Akash Test,INVOICE,INV-000041,,Overdue,credit,90.75,USD 0.00,90.75,-90.75,90.75,5893767000004771053
+02 Jan 2025,2025,January,1,Revenue,Income,Product,Akash Test,INVOICE,INV-000041,,Overdue,credit,1100,USD 0.00,1100,-1100,1100,5893767000004771053
+08 Jan 2025,2025,January,1,Direct Cost,Asset,Petty Cash,John Roberts,EXPENSE,,,Non-Billable,credit,100,USD 0.00,100,-100,100,5893767000000202129
+08 Jan 2025,2025,January,1,SGA,Expense,Marketing,John Roberts,EXPENSE,,,Non-Billable,debit,0,USD 100.00,-100,100,-100,5893767000000202129
+01 Feb 2025,2025,February,2,Direct Cost,Asset,Accounts Receivable,vijey v,INVOICE,INV-000008,,Overdue,debit,0,USD 299.00,-299,299,-299,5893767000000105007
+01 Feb 2025,2025,February,2,Revenue,Income,Sales,Aakash Zentegra,INVOICE,INV-000009,,Overdue,credit,1234,USD 0.00,1234,-1234,1234,5893767000000105058
+01 Feb 2025,2025,February,2,Direct Cost,Asset,Accounts Receivable,Aakash Zentegra,INVOICE,INV-000009,,Overdue,debit,0,"USD 1,234.00",-1234,1234,-1234,5893767000000105058
+01 Feb 2025,2025,February,2,Revenue,Income,Sales,vijey v,INVOICE,INV-000008,,Overdue,credit,299,USD 0.00,299,-299,299,5893767000000105007
+05 Feb 2025,2025,February,2,Direct Cost,Asset,Accounts Receivable,Commercial Press (Sample)ommercial Press (Sample),INVOICE,INV-000010,,Overdue,debit,0,USD 500.00,-500,500,-500,5893767000000107067
+05 Feb 2025,2025,February,2,Revenue,Income,Sales,Commercial Press (Sample)ommercial Press (Sample),INVOICE,INV-000010,,Overdue,credit,500,USD 0.00,500,-500,500,5893767000000107067
+01 Mar 2025,2025,March,3,Direct Cost,Asset,Accounts Receivable,Aakash Zentegra,INVOICE,INV-000012,,Overdue,debit,0,"USD 1,234.00",-1234,1234,-1234,5893767000000122044
+01 Mar 2025,2025,March,3,Revenue,Income,Sales,Aakash Zentegra,INVOICE,INV-000012,,Overdue,credit,1234,USD 0.00,1234,-1234,1234,5893767000000122044
+01 Mar 2025,2025,March,3,Direct Cost,Asset,Accounts Receivable,vijey v,INVOICE,INV-000011,,Overdue,debit,0,USD 299.00,-299,299,-299,5893767000000122003
+01 Mar 2025,2025,March,3,Revenue,Income,Sales,vijey v,INVOICE,INV-000011,,Overdue,credit,299,USD 0.00,299,-299,299,5893767000000122003
+05 Mar 2025,2025,March,3,Revenue,Income,Sales,Commercial Press (Sample)ommercial Press (Sample),INVOICE,INV-000013,,Overdue,credit,500,USD 0.00,500,-500,500,5893767000000193003
+05 Mar 2025,2025,March,3,Direct Cost,Asset,Accounts Receivable,Commercial Press (Sample)ommercial Press (Sample),INVOICE,INV-000013,,Overdue,debit,0,USD 500.00,-500,500,-500,5893767000000193003
+19 Mar 2025,2025,March,3,Finance Costs,Liability,Tax Payable,vijey v,INVOICE,INV-000042,,Overdue,credit,412.5,USD 0.00,412.5,-412.5,412.5,5893767000004771099
+19 Mar 2025,2025,March,3,Direct Cost,Asset,Accounts Receivable,vijey v,INVOICE,INV-000042,,Overdue,debit,0,"USD 5,412.50",-5412.5,5412.5,-5412.5,5893767000004771099
+19 Mar 2025,2025,March,3,Revenue,Income,Service,vijey v,INVOICE,INV-000042,,Overdue,credit,5000,USD 0.00,5000,-5000,5000,5893767000004771099
+30 Mar 2025,2025,March,3,Finance Costs,Liability,Employee Reimbursements,,EXPENSE,,ER-00003,Non-Billable,credit,1160,USD 0.00,1160,-1160,1160,5893767000001207688
+30 Mar 2025,2025,March,3,SGA,Expense,Fuel/Mileage Expenses,,EXPENSE,,ER-00003,Non-Billable,debit,0,"USD 1,160.00",-1160,1160,-1160,5893767000001207688
+31 Mar 2025,2025,March,3,Direct Cost,Asset,Petty Cash,,EXPENSE,,ER-00001,Non-Billable,credit,2500,USD 0.00,2500,-2500,2500,5893767000001207252
+31 Mar 2025,2025,March,3,Direct Cost,Asset,Advance Tax,,EXPENSE,,ER-00001,Non-Billable,debit,0,"USD 2,500.00",-2500,2500,-2500,5893767000001207252
+01 Apr 2025,2025,April,4,Revenue,Income,Sales,Aakash Zentegra,INVOICE,INV-000022,,Overdue,credit,1234,USD 0.00,1234,-1234,1234,5893767000001201050
+01 Apr 2025,2025,April,4,Direct Cost,Asset,Accounts Receivable,Aakash Zentegra,INVOICE,INV-000022,,Overdue,debit,0,"USD 1,234.00",-1234,1234,-1234,5893767000001201050
+01 Apr 2025,2025,April,4,Finance Costs,Liability,Employee Reimbursements,,EXPENSE,,ER-00006,Non-Billable,credit,85000,USD 0.00,85000,-85000,85000,5893767000003025110
+01 Apr 2025,2025,April,4,Direct Cost,Asset,Petty Cash,,EXPENSE,,ER-00004,Non-Billable,credit,500,USD 0.00,500,-500,500,5893767000001221065
+01 Apr 2025,2025,April,4,SGA,Expense,Automobile Expense,,EXPENSE,,ER-00006,Non-Billable,debit,0,"USD 85,000.00",-85000,85000,-85000,5893767000003025110
+01 Apr 2025,2025,April,4,Direct Cost,Asset,Accounts Receivable,vijey v,INVOICE,INV-000021,,Overdue,debit,0,USD 299.00,-299,299,-299,5893767000001201003
+01 Apr 2025,2025,April,4,Revenue,Income,Sales,vijey v,INVOICE,INV-000021,,Overdue,credit,299,USD 0.00,299,-299,299,5893767000001201003
+01 Apr 2025,2025,April,4,SGA,Expense,Automobile Expense,,EXPENSE,,ER-00004,Non-Billable,debit,0,USD 500.00,-500,500,-500,5893767000001221065
+02 Apr 2025,2025,April,4,Finance Costs,Liability,Employee Reimbursements,,EXPENSE,,ER-00002,Non-Billable,credit,500,USD 0.00,500,-500,500,5893767000001207332
+02 Apr 2025,2025,April,4,Direct Cost,Asset,Advance Tax,,EXPENSE,,ER-00004,Non-Billable,debit,0,USD 500.00,-500,500,-500,5893767000001221083
+02 Apr 2025,2025,April,4,Finance Costs,Liability,Employee Reimbursements,,EXPENSE,,ER-00004,Non-Billable,credit,500,USD 0.00,500,-500,500,5893767000001221083
+02 Apr 2025,2025,April,4,Finance Costs,Liability,Employee Reimbursements,,EXPENSE,,ER-00003,Non-Billable,credit,2500,USD 0.00,2500,-2500,2500,5893767000001207672
+02 Apr 2025,2025,April,4,Finance Costs,Liability,Employee Reimbursements,,EXPENSE,,ER-00002,Non-Billable,credit,500,USD 0.00,500,-500,500,5893767000001207316
+02 Apr 2025,2025,April,4,SGA,Expense,Automobile Expense,,EXPENSE,,ER-00002,Non-Billable,debit,0,USD 500.00,-500,500,-500,5893767000001207332
+02 Apr 2025,2025,April,4,SGA,Expense,Automobile Expense,,EXPENSE,,ER-00003,Non-Billable,debit,0,"USD 2,500.00",-2500,2500,-2500,5893767000001207672
+02 Apr 2025,2025,April,4,SGA,Expense,Automobile Expense,,EXPENSE,,ER-00002,Non-Billable,debit,0,USD 500.00,-500,500,-500,5893767000001207316
+05 Apr 2025,2025,April,4,Revenue,Income,Sales,Commercial Press (Sample)ommercial Press (Sample),INVOICE,INV-000023,,Overdue,credit,500,USD 0.00,500,-500,500,5893767000001415003
+05 Apr 2025,2025,April,4,Direct Cost,Asset,Accounts Receivable,Commercial Press (Sample)ommercial Press (Sample),INVOICE,INV-000023,,Overdue,debit,0,USD 500.00,-500,500,-500,5893767000001415003
+08 Apr 2025,2025,April,4,SGA,Expense,Automobile Expense,,EXPENSE,,ER-00002,Non-Billable,debit,0,"USD 2,050.00",-2050,2050,-2050,5893767000001207340
+08 Apr 2025,2025,April,4,Finance Costs,Liability,Employee Reimbursements,,EXPENSE,,ER-00002,Non-Billable,credit,2050,USD 0.00,2050,-2050,2050,5893767000001207340
+09 Apr 2025,2025,April,4,Direct Cost,Asset,Accounts Receivable,Flashter Inc.,INVOICE,INV-000024,SO-00001,Overdue,debit,0,USD 72.99,-72.99,72.99,-72.99,5893767000001561033
+09 Apr 2025,2025,April,4,Revenue,Income,Sales,Flashter Inc.,INVOICE,INV-000024,SO-00001,Overdue,credit,72.99,USD 0.00,72.99,-72.99,72.99,5893767000001561033
+17 Apr 2025,2025,April,4,SGA,Expense,Automobile Expense,,EXPENSE,,ER-00001,Non-Billable,debit,0,USD 800.00,-800,800,-800,5893767000001207594
+17 Apr 2025,2025,April,4,Finance Costs,Liability,Employee Reimbursements,,EXPENSE,,ER-00001,Non-Billable,credit,800,USD 0.00,800,-800,800,5893767000001207594
+22 Apr 2025,2025,April,4,Direct Cost,Asset,Advance Tax,,EXPENSE,,ER-00007,Non-Billable,debit,0,"USD 2,000.00",-2000,2000,-2000,5893767000002011011
+22 Apr 2025,2025,April,4,Finance Costs,Liability,Employee Reimbursements,,EXPENSE,,ER-00007,Non-Billable,credit,2000,USD 0.00,2000,-2000,2000,5893767000002011011
+24 Apr 2025,2025,April,4,SGA,Expense,Cost of Goods Sold,John Roberts,BILL,20002,PO-00001,Open,debit,0,"USD 7,500.00",-7500,7500,-7500,5893767000002112085
+24 Apr 2025,2025,April,4,Revenue,Income,General Income,John Roberts,BILL,200,PO-00001,Overdue,debit,0,"USD 15,000.00",-15000,15000,-15000,5893767000002112126
+24 Apr 2025,2025,April,4,SGA,Expense,Cost of Goods Sold,John Roberts,BILL,2000,PO-00001,Open,debit,0,"USD 7,500.00",-7500,7500,-7500,5893767000002112059
+24 Apr 2025,2025,April,4,Finance Costs,Liability,Accounts Payable,John Roberts,BILL,20002,PO-00001,Open,credit,7500,USD 0.00,7500,-7500,7500,5893767000002112085
+24 Apr 2025,2025,April,4,Finance Costs,Liability,Accounts Payable,John Roberts,BILL,200,PO-00001,Overdue,credit,15000,USD 0.00,15000,-15000,15000,5893767000002112126
+24 Apr 2025,2025,April,4,Finance Costs,Liability,Accounts Payable,John Roberts,BILL,2000,PO-00001,Open,credit,7500,USD 0.00,7500,-7500,7500,5893767000002112059
+29 Apr 2025,2025,April,4,Finance Costs,Liability,Employee Reimbursements,,EXPENSE,,ER-00002,Non-Billable,credit,9630,USD 0.00,9630,-9630,9630,5893767000001207364
+29 Apr 2025,2025,April,4,SGA,Expense,Automobile Expense,,EXPENSE,,ER-00002,Non-Billable,debit,0,"USD 9,630.00",-9630,9630,-9630,5893767000001207364
+30 Apr 2025,2025,April,4,SGA,Expense,Automobile Expense,,EXPENSE,,ER-00002,Non-Billable,debit,0,USD 600.00,-600,600,-600,5893767000001207348
+30 Apr 2025,2025,April,4,SGA,Expense,Cost of Goods Sold,Mr. Basha M,BILL,102,100,Open,debit,0,USD 105.00,-105,105,-105,5893767000002173078
+30 Apr 2025,2025,April,4,Finance Costs,Liability,Accounts Payable,Mr. Basha M,BILL,102,100,Open,credit,105,USD 0.00,105,-105,105,5893767000002173078
+30 Apr 2025,2025,April,4,Finance Costs,Liability,Employee Reimbursements,,EXPENSE,,ER-00002,Non-Billable,credit,600,USD 0.00,600,-600,600,5893767000001207348
+01 May 2025,2025,May,5,Direct Cost,Asset,Accounts Receivable,Aakash Zentegra,INVOICE,INV-000026,,Overdue,debit,0,"USD 1,234.00",-1234,1234,-1234,5893767000002376071
+01 May 2025,2025,May,5,Direct Cost,Asset,Accounts Receivable,vijey v,INVOICE,INV-000025,,Overdue,debit,0,USD 299.00,-299,299,-299,5893767000002376003
+01 May 2025,2025,May,5,Revenue,Income,Sales,vijey v,INVOICE,INV-000025,,Overdue,credit,299,USD 0.00,299,-299,299,5893767000002376003
+01 May 2025,2025,May,5,Revenue,Income,Sales,Aakash Zentegra,INVOICE,INV-000026,,Overdue,credit,1234,USD 0.00,1234,-1234,1234,5893767000002376071
+05 May 2025,2025,May,5,Direct Cost,Asset,Accounts Receivable,Commercial Press (Sample)ommercial Press (Sample),INVOICE,INV-000027,,Overdue,debit,0,USD 500.00,-500,500,-500,5893767000002472003
+05 May 2025,2025,May,5,Revenue,Income,Sales,Commercial Press (Sample)ommercial Press (Sample),INVOICE,INV-000027,,Overdue,credit,500,USD 0.00,500,-500,500,5893767000002472003
+06 May 2025,2025,May,5,Finance Costs,Liability,Employee Reimbursements,,EXPENSE,,ER-00002,Non-Billable,credit,750,USD 0.00,750,-750,750,5893767000001207356
+06 May 2025,2025,May,5,SGA,Expense,Automobile Expense,,EXPENSE,,ER-00002,Non-Billable,debit,0,USD 750.00,-750,750,-750,5893767000001207356
+06 May 2025,2025,May,5,SGA,Expense,Fuel/Mileage Expenses,,EXPENSE,,ER-00002,Non-Billable,debit,0,USD 290.00,-290,290,-290,5893767000001207300
+06 May 2025,2025,May,5,SGA,Expense,Fuel/Mileage Expenses,,EXPENSE,,ER-00011,Non-Billable,debit,0,USD 100.00,-100,100,-100,5893767000003270319
+06 May 2025,2025,May,5,SGA,Expense,Automobile Expense,,EXPENSE,,ER-00006,Non-Billable,debit,0,"USD 8,500.00",-8500,8500,-8500,5893767000003025092
+06 May 2025,2025,May,5,Finance Costs,Liability,Employee Reimbursements,,EXPENSE,,ER-00011,Non-Billable,credit,100,USD 0.00,100,-100,100,5893767000003270319
+06 May 2025,2025,May,5,Finance Costs,Liability,Employee Reimbursements,,EXPENSE,,ER-00006,Non-Billable,credit,8500,USD 0.00,8500,-8500,8500,5893767000003025092
+06 May 2025,2025,May,5,Finance Costs,Liability,Employee Reimbursements,,EXPENSE,,ER-00002,Non-Billable,credit,290,USD 0.00,290,-290,290,5893767000001207300
+13 May 2025,2025,May,5,Finance Costs,Liability,Employee Reimbursements,,EXPENSE,,ER-00011,Non-Billable,credit,1000,USD 0.00,1000,-1000,1000,5893767000003270383
+13 May 2025,2025,May,5,Direct Cost,Asset,Advance Tax,,EXPENSE,,ER-00011,Non-Billable,debit,0,"USD 1,000.00",-1000,1000,-1000,5893767000003270383
+21 May 2025,2025,May,5,SGA,Expense,Automobile Expense,,EXPENSE,,ER-00008,Non-Billable,debit,0,"USD 10,000.00",-10000,10000,-10000,5893767000003037049
+21 May 2025,2025,May,5,Finance Costs,Liability,Employee Reimbursements,,EXPENSE,,ER-00008,Non-Billable,credit,10000,USD 0.00,10000,-10000,10000,5893767000003037049
+22 May 2025,2025,May,5,SGA,Expense,IT and Internet Expenses,,EXPENSE,,ER-00012,Non-Billable,debit,0,"USD 1,000.00",-1000,1000,-1000,5893767000003270535
+22 May 2025,2025,May,5,Finance Costs,Liability,Employee Reimbursements,,EXPENSE,,ER-00012,Non-Billable,credit,1000,USD 0.00,1000,-1000,1000,5893767000003270535
+28 May 2025,2025,May,5,Finance Costs,Liability,Employee Reimbursements,,EXPENSE,,ER-00010,Non-Billable,credit,5000,USD 0.00,5000,-5000,5000,5893767000003270194
+28 May 2025,2025,May,5,SGA,Expense,Lodging,,EXPENSE,,ER-00009,Non-Billable,debit,0,"USD 25,000.00",-25000,25000,-25000,5893767000003270019
+28 May 2025,2025,May,5,Finance Costs,Liability,Employee Reimbursements,,EXPENSE,,ER-00009,Non-Billable,credit,25000,USD 0.00,25000,-25000,25000,5893767000003270019
+28 May 2025,2025,May,5,SGA,Expense,IT and Internet Expenses,,EXPENSE,,ER-00010,Non-Billable,debit,0,"USD 5,000.00",-5000,5000,-5000,5893767000003270194
+01 Jun 2025,2025,June,6,Revenue,Income,Sales,Aakash Zentegra,INVOICE,INV-000031,,Overdue,credit,1234,USD 0.00,1234,-1234,1234,5893767000003364096
+01 Jun 2025,2025,June,6,Direct Cost,Asset,Accounts Receivable,vijey v,INVOICE,INV-000030,,Overdue,debit,0,USD 299.00,-299,299,-299,5893767000003364029
+01 Jun 2025,2025,June,6,Revenue,Income,Sales,vijey v,INVOICE,INV-000030,,Overdue,credit,299,USD 0.00,299,-299,299,5893767000003364029
+01 Jun 2025,2025,June,6,Direct Cost,Asset,Accounts Receivable,Aakash Zentegra,INVOICE,INV-000031,,Overdue,debit,0,"USD 1,234.00",-1234,1234,-1234,5893767000003364096
+05 Jun 2025,2025,June,6,Direct Cost,Asset,Accounts Receivable,Commercial Press (Sample)ommercial Press (Sample),INVOICE,INV-000032,,Overdue,debit,0,USD 500.00,-500,500,-500,5893767000003580003
+05 Jun 2025,2025,June,6,Revenue,Income,Sales,Commercial Press (Sample)ommercial Press (Sample),INVOICE,INV-000032,,Overdue,credit,500,USD 0.00,500,-500,500,5893767000003580003
+11 Jun 2025,2025,June,6,Direct Cost,Asset,Accounts Receivable,Aakash Zentegra,INVOICE,INV-000033,,Closed,debit,0,USD 500.00,-500,500,-500,5893767000003727025
+11 Jun 2025,2025,June,6,SGA,Expense,Tax Paid Expense,Mr. Basha M,BILL,Test1,,Open,debit,0,USD 0.00,0,0,0,5893767000003727003
+11 Jun 2025,2025,June,6,Revenue,Income,Sales,Aakash Zentegra,INVOICE,INV-000033,,Closed,credit,500,USD 0.00,500,-500,500,5893767000003727025
+11 Jun 2025,2025,June,6,SGA,Expense,IT and Internet Expenses,Mr. Basha M,BILL,Test1,,Open,debit,0,"USD 1,000.00",-1000,1000,-1000,5893767000003727003
+11 Jun 2025,2025,June,6,Finance Costs,Liability,Accounts Payable,Mr. Basha M,BILL,Test1,,Open,credit,1000,USD 0.00,1000,-1000,1000,5893767000003727003
+22 Jun 2025,2025,June,6,Finance Costs,Liability,Employee Reimbursements,,EXPENSE,,ER-00014,Non-Billable,credit,2000,USD 0.00,2000,-2000,2000,5893767000004319011
+22 Jun 2025,2025,June,6,Direct Cost,Asset,Advance Tax,,EXPENSE,,ER-00014,Non-Billable,debit,0,"USD 2,000.00",-2000,2000,-2000,5893767000004319011
+30 Jun 2025,2025,June,6,Direct Cost,Asset,Employee Advance,,EXPENSE,,ER-00014,Non-Billable,debit,0,"USD 20,000.00",-20000,20000,-20000,5893767000004319029
+30 Jun 2025,2025,June,6,Finance Costs,Liability,Employee Reimbursements,,EXPENSE,,ER-00014,Non-Billable,credit,20000,USD 0.00,20000,-20000,20000,5893767000004319029
+01 Jul 2025,2025,July,7,Revenue,Income,Sales,vijey v,INVOICE,INV-000037,,Overdue,credit,299,USD 0.00,299,-299,299,5893767000004726003
+01 Jul 2025,2025,July,7,Direct Cost,Asset,Accounts Receivable,Aakash Zentegra,INVOICE,INV-000039,,Overdue,debit,0,"USD 2,165.00",-2165,2165,-2165,5893767000004695027
+01 Jul 2025,2025,July,7,Finance Costs,Liability,Tax Payable,Aakash Zentegra,INVOICE,INV-000039,,Overdue,credit,165,USD 0.00,165,-165,165,5893767000004695027
+01 Jul 2025,2025,July,7,Revenue,Income,Sales,Aakash Zentegra,INVOICE,INV-000038,,Overdue,credit,1234,USD 0.00,1234,-1234,1234,5893767000004726054
+01 Jul 2025,2025,July,7,Direct Cost,Asset,Accounts Receivable,vijey v,INVOICE,INV-000037,,Overdue,debit,0,USD 299.00,-299,299,-299,5893767000004726003
+01 Jul 2025,2025,July,7,Revenue,Income,Product,Mr. Basha M,BILL,bbb67,,Overdue,debit,0,"USD 1,500.00",-1500,1500,-1500,5893767000004771157
+01 Jul 2025,2025,July,7,Revenue,Income,Sales,Aakash Zentegra,INVOICE,INV-000039,,Overdue,credit,2000,USD 0.00,2000,-2000,2000,5893767000004695027
+01 Jul 2025,2025,July,7,Finance Costs,Liability,Tax Payable,TEST PHASE,INVOICE,INV-000043,,Overdue,credit,495,USD 0.00,495,-495,495,5893767000004771127
+01 Jul 2025,2025,July,7,Revenue,Income,Consultant,TEST PHASE,INVOICE,INV-000043,,Overdue,credit,6000,USD 0.00,6000,-6000,6000,5893767000004771127
+01 Jul 2025,2025,July,7,Revenue,Income,Service,Mr. Basha M,BILL,bbb67,,Overdue,debit,0,USD 105.00,-105,105,-105,5893767000004771157
+01 Jul 2025,2025,July,7,Direct Cost,Asset,Accounts Receivable,TEST PHASE,INVOICE,INV-000043,,Overdue,debit,0,"USD 6,495.00",-6495,6495,-6495,5893767000004771127
+01 Jul 2025,2025,July,7,Finance Costs,Liability,Accounts Payable,Mr. Basha M,BILL,bbb67,,Overdue,credit,1605,USD 0.00,1605,-1605,1605,5893767000004771157
+01 Jul 2025,2025,July,7,Direct Cost,Asset,Accounts Receivable,Aakash Zentegra,INVOICE,INV-000038,,Overdue,debit,0,"USD 1,234.00",-1234,1234,-1234,5893767000004726054
+05 Jul 2025,2025,July,7,Direct Cost,Asset,Accounts Receivable,Commercial Press (Sample)ommercial Press (Sample),INVOICE,INV-000044,,Overdue,debit,0,USD 500.00,-500,500,-500,5893767000004926003
+05 Jul 2025,2025,July,7,Revenue,Income,Sales,Commercial Press (Sample)ommercial Press (Sample),INVOICE,INV-000044,,Overdue,credit,500,USD 0.00,500,-500,500,5893767000004926003
+18 Jul 2025,2025,July,7,Direct Cost,Asset,Advance Tax,,EXPENSE,,ER-00016,Non-Billable,debit,0,USD 250.00,-250,250,-250,5893767000005432155
+18 Jul 2025,2025,July,7,Finance Costs,Liability,Employee Reimbursements,,EXPENSE,,ER-00016,Non-Billable,credit,500,USD 0.00,500,-500,500,5893767000005432155
+18 Jul 2025,2025,July,7,SGA,Expense,Lodging,,EXPENSE,,ER-00016,Non-Billable,debit,0,USD 250.00,-250,250,-250,5893767000005432155
+19 Jul 2025,2025,July,7,SGA,Expense,Fuel/Mileage Expenses,,EXPENSE,,ER-00017,Non-Billable,debit,0,USD 690.00,-690,690,-690,5893767000005432348
+19 Jul 2025,2025,July,7,Direct Cost,Asset,Advance Tax,,EXPENSE,,ER-00017,Non-Billable,debit,0,USD 98.00,-98,98,-98,5893767000005432348
+19 Jul 2025,2025,July,7,SGA,Expense,Lodging,,EXPENSE,,ER-00017,Non-Billable,debit,0,"USD 2,600.00",-2600,2600,-2600,5893767000005432348
+19 Jul 2025,2025,July,7,Finance Costs,Liability,Employee Reimbursements,,EXPENSE,,ER-00017,Non-Billable,credit,3388,USD 0.00,3388,-3388,3388,5893767000005432348

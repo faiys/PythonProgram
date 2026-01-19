@@ -16,7 +16,7 @@ class PandasWrapper():
         print(pd.options.display.max_rows)
         print("\t\t\t **Read CSV** \t\t\t")
         pd.options.display.max_rows = 2
-        read_csv_var = pd.read_csv("Org Users.csv")
+        read_csv_var = pd.read_csv("Data/Org Users.csv")
         print(read_csv_var.to_string())
         print(read_csv_var)
 
@@ -45,7 +45,7 @@ class PandasWrapper():
     def analyzing_date(self):
         print("\t\t\t **Analyzing Data using head()** \t\t\t")
         print("\t\t\t **head() defauld 5 row. head(100) show first 100 rows** \t\t\t")
-        hear_var = pd.read_csv("Org Users.csv")
+        hear_var = pd.read_csv("Data/Org Users.csv")
         print(hear_var.head(2))
         print("\t\t\t **tail() defauld 5 row. tail(100) show last 100 rows** \t\t\t")
         print(hear_var.tail(2))
@@ -75,7 +75,7 @@ class PandasWrapper():
         # Default plot
         myFrD.plot()
         # Scatter plot ('line', 'bar', 'barh', 'kde', 'density', 'area', 'hist', 'box', 'pie', 'scatter', 'hexbin')
-        myFr = pd.read_csv("Org Users.csv")
+        myFr = pd.read_csv("Data/Org Users.csv")
         # myFr.plot(kind = 'scatter', x="A",y="C")
         myFr.plot(kind = 'scatter', x='First Name', y = 'User Status')
         plt.show()
