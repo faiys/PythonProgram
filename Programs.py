@@ -22,6 +22,15 @@ class solution:
         name = name.lower()
         return name[::-1]
         
+    def lambdaPalindrome(self, name:str):
+        self.line("lambda Palidrome")
+        self.inputValidate(name, str)
+        is_palin = lambda x : x == name[::-1]
+        if  is_palin(name) == True:
+            return f'{name} is palindrom'
+        else:
+            return f'{name} is not palindrom'
+        
     def CustomPalindrome(self, name:str):
         self.line("Custom Palindrome")
         self.inputValidate(name, str)
@@ -91,6 +100,7 @@ class solution:
 obj = solution()
 print(obj.reverseStr("Mohamed"))
 print(obj.inBuildPalidrome("Mom"))
+print(obj.lambdaPalindrome("Teacher"))
 print(obj.CustomPalindrome("Mom"))
 print(obj.RemoveDuplicatePreventList([2,5,2,4,9,8,9]))
 print(obj.CountUniqueLisOfDict())

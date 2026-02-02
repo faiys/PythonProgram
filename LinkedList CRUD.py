@@ -54,15 +54,57 @@ class LinkedList():
             prev = current
             current = next_node
         self.head = prev
+    
+    def search(self, value):
+        current = self.head
+        while current.data:
+            if current.data == value:
+                return f"search - {current.data}"
+            current = current.next
+        return f"search - {current}"
+    
+    def create_cycle(self, value):
+        self.empty()
+        current = self.head
+        cycle_val = None
+        while current and current.next:
+            if current.data == value:
+                cycle_val = current
+            current = current.next
+        if cycle_val:
+            current.next = cycle_val
+    
+    def detect_cycle(self):
+        self.empty()
+        slow = self.head
+        fast = self.head
+        
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+            
+            if slow == fast:
+                return True
+        return False
+        
+            
             
         
 ll = LinkedList()
 for i in range(1,6):
     ll.append(i)
 ll.display()
-print("")
+print("Append")
 ll.delete(4)
 ll.display()
-print("")
+print("Deleted")
 ll.reverse()
 ll.display()
+print("Reverse")
+print(ll.search(3))
+print("------Detect Cycle------")
+print(ll.detect_cycle())
+print("------Create Cycle------")
+ll.create_cycle(2)
+print("------Detect Cycle------")
+print(ll.detect_cycle())
