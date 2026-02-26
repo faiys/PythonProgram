@@ -39,3 +39,15 @@ async def getHTTp():
             return_exceptions=True
         )
         return [j.json() for j in resp]
+
+
+@app.get('/noasync')
+def withoutAsync():
+    op = []
+    for i in ticektIds:
+        url = f"https://desk.zoho.in/api/v1/tickets/{i}"
+        client = httpx.Client()
+        resp = client.get(url, headers=HEADERS)
+        resp.raise_for_status()
+        op.append(resp.json())
+    return op
