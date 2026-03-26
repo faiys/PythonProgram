@@ -29,7 +29,7 @@ class solution:
     def SecondLargeNumberUsingSort(self):
         arr = list(map(int,input().split())) #10 20 4 45 99
         removeDuplicate = list(set(arr))
-        removeDuplicate.sort()
+        removeDuplicate.sort(reverse=True)
         return removeDuplicate[-2]
     
     def SecondLargeNumberWithoutSort(self):
@@ -56,9 +56,9 @@ class solution:
 
 
 op = solution()
-# print(op.RatHouse())
+print(op.RatHouse())
 # print(op.RotateArray())
 # print(op.SecondLargeNumberUsingSort())
 # print(op.SecondLargeNumberWithoutSort())
-print(op.CountVowels())
+# print(op.CountVowels())
 

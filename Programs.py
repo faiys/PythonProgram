@@ -54,6 +54,18 @@ class solution:
                 op_list.append(i)
         return op_list
     
+    def GetDuplicateFromList(self, input_list:list[int]):
+        self.line("Get Duplicate from List")
+        self.inputValidate(input_list, list)
+        seen = set()
+        duplicate = set()
+        for i in input_list:
+            if i not in seen:
+                seen.add(i)
+            else:
+                duplicate.add(i)
+        return duplicate
+
     def CountUniqueLisOfDict(self):
         self.line("Count Unique List of Dict")
         input_dict= [
@@ -80,7 +92,7 @@ class solution:
     def missingNumber(self, input_list: list[int]):
         self.line("Missing Number")
         self.inputValidate(input_list, list)
-        lastnum = len(input_list) + 1
+        lastnum = input_list[len(input_list) - 1]
         calculate_val = lastnum * (lastnum + 1) // 2
         return calculate_val - sum(input_list)
         
@@ -95,15 +107,65 @@ class solution:
                 a , b = b, a+b
         return list(generator(n))
             
+    def groupByKey(self):
+        self.line("Group by key")
+
+        data = [
+            {"name": "a", "dept": "IT"},
+            {"name": "b", "dept": "HR"},
+            {"name": "c", "dept": "IT"},
+        ]
+
+        result = {}
+        for i in data:
+            dept = i['dept']
+
+            if dept not in result:
+                result[dept] = []
+            result[dept].append(i['name'])
+        return result
         
-        
+    def Subtract(self, arr:list, op:int):
+        # Take each candidate value (starting from largest) Subtract it from all elements . If any result equals op → return that candidate value (int) Else try next largest
+        # 5-5 = 0 ->wrong
+        # 5-6 = 1 ->wrong
+        # 5-3 = 2 ->wrong
+        self.line("ubtract it from all elements")
+
+        uniq_sort = sorted(set(arr), reverse=True)
+        for i in uniq_sort:
+            if any(i-x == op for x in arr):
+                return i
+        return -1
+
+    def WordFrequencyCount(self, text:str):
+        self.line("Word Frequency Count")
+        self.inputValidate(text, str)
+        # {'hello': 2, 'world': 1}
+
+        result = {}
+        for i in text.split():
+            if i in result:
+                result[i] +=1
+            else:
+                result[i] =1 
+        return  result
+
+
+
+
 obj = solution()
+# 
 print(obj.reverseStr("Mohamed"))
 print(obj.inBuildPalidrome("Mom"))
 print(obj.lambdaPalindrome("Teacher"))
 print(obj.CustomPalindrome("Mom"))
 print(obj.RemoveDuplicatePreventList([2,5,2,4,9,8,9]))
+print(obj.GetDuplicateFromList([2,5,2,4,9,8,9]))
 print(obj.CountUniqueLisOfDict())
 print(obj.TwoSum(9))
-print(obj.missingNumber([1, 2, 3, 4, 5, 7]))
+print(obj.missingNumber([1, 2, 3, 4, 6,7]))
 print(obj.fibbonacciGenerator(10))
+print(obj.groupByKey())
+print(obj.Subtract([5, 6, 3], 3))
+print(obj.WordFrequencyCount("hello world hello"))
