@@ -151,6 +151,21 @@ class solution:
                 result[i] =1 
         return  result
 
+    def FlattenList(self, arr:list):
+        self.line("Flatten nested list")
+        self.inputValidate(arr, list)
+        # [1, 2, 3, 4, 5, 6]
+
+        result = []
+        while arr:
+            item = arr.pop(0)
+            if isinstance(item, list):
+                arr = item + arr
+            else:
+                result.append(item)
+        return result
+
+
 
 
 
@@ -169,3 +184,4 @@ print(obj.fibbonacciGenerator(10))
 print(obj.groupByKey())
 print(obj.Subtract([5, 6, 3], 3))
 print(obj.WordFrequencyCount("hello world hello"))
+print(obj.FlattenList([1, [2, 3], [4, [5, 6]]]))
